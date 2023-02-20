@@ -7,12 +7,18 @@ module.exports = {
         light: '#272727',        
         DEFAULT: '#212121',        
         dark: '#151515',     
-  },      
-       red: {        
-        light: '#CAC2C1',        
+      },      
+      red: {        
+        light: '#FFF',        
         DEFAULT: '#C84540',        
         dark: '#623533',      
   },
+      white:{
+        light: 'F3F3F3',
+        DEFAULT:'FFF9F9',
+        dark:'BAB7B7',
+},
+      
     extend: {},
   },
 },

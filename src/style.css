@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+    p {
+        color: theme('colors.red.light');
+    }
+}
