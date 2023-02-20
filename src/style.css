@@ -8,3 +8,20 @@
         color: theme('colors.red.light');
     }
 }
+@layer base {
+  h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 7rem;
+  }
+  h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  p {
+    font-family: "Roboto Serif", serif;
+    font-size: 1.5rem;
+  }
+}
