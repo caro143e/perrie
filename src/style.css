@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+    p {
+        color: theme('colors.red.light');
+    }
+}
 @layer base {
   h1 {
     font-family: "Roboto Condensed", sans-serif;
